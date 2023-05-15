@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Noto sans';
+    src: url('./NotoSansGeorgian-VariableFont_wdth\,wght.ttf');
+}
+
+* {
+    font-family: 'Noto sans';
+}
+
+.category {
+    padding: 5px 103px 6px 34px;
+    background-image: url('./angles-down.svg');
+    background-repeat: no-repeat;
+    background-size: 10px 12px;
+    border: 0.8px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    background-position: left 12px center;
+    width: 218px;
+    height: 29px;
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown {
+    margin-top: 1em;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.dropdown.shown {
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 1036px;
+    height: 291px;
+    border-radius: 20px;
+    border: 1px solid none;
+    background-image: url('./social-media-3846597\ 1\ \(4\).svg');
+    align-items: center;
+}
+
+.grid-item,
+.grid-item1,
+.grid-item2,
+.grid-itemnot {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 1em;
+}
+
+.angles-down {
+    position: absolute;
+}
+
+.grid-item {
+    border-right: 2px solid #627FA7;
+}
