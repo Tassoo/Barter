@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Noto sans';
+    src: url('./NotoSansGeorgian-VariableFont_wdth\,wght.ttf');
+}
+
+* {
+    font-family: 'Noto sans';
+}
+
+body {
+    height: 1px;
+    width: 800px;
+    background-image: url('./social-media-3846597\ 2.svg');
+}
+
+.grid-container,
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.input,
+.input1 {
+    width: 480px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background-color: #F7F8F9;
+    padding-left: 26px;
+}
+
+.input1 {
+    background-image: url('./Search.svg');
+    background-repeat: no-repeat;
+    background-position: left 470px center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.button1 {
+    border: none;
+    color: #6EB4FB;
+    background-color: transparent;
+    font-size: 17px;
+}
+
+.container {
+    display: flex;
+}
+
+.grid-container2 {
+    margin-top: 76px;
+    gap: 24px;
+}
+
+.input3,
+.input2 {
+    width: 480px;
+    height: 198px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background-color: #F7F8F9;
+    padding-left: 26px;
+}
+
+.input4,
+.input6 {
+    width: 380px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background-color: #F7F8F9;
+    padding-left: 26px;
+}
+
+.input5,
+.input7 {
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background-color: #F7F8F9;
+    padding-left: 26px;
+    width: 63px;
+    height: 56px;
+}
+
+.column1,
+.column2 {
+    margin-top: 20px;
+}
+
+.button2,
+.button3 {
+    width: 397px;
+    height: 56px;
+    border: 1px solid #E8ECF4;
+    background-color: #F7F8F9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.buttons {
+    margin-left: 6em;
+    margin-top: 1.3em;
+}
+
+.input::placeholder,
+.input1::placeholder,
+.input2::placeholder,
+.input3::placeholder,
+.input4::placeholder,
+.input6::placeholder,
+.input7::placeholder {
+    color: #000000;
+}
+
+.input5::placeholder,
+.input7::placeholder {
+    color: #6EB4FB;
+}
+
+.input6,
+.input7,
+.button3 {
+    margin-top: 20px;
+}
+
+.input3 {
+    background-image: url('./Icon\ \(1\).svg');
+    background-repeat: no-repeat;
+}
